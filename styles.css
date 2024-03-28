@@ -1,0 +1,217 @@
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1859b4;
+    background-image: url('Images/candies.jpg'); /* Adding a background image */
+    background-size:cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(211, 17, 101, 0.8); 
+    color: rgb(1, 5, 16);
+    padding: 20px 0;
+    text-align: center;
+    font-family:'Times New Roman', serif;
+
+}
+
+nav ul {
+    list-style-type: none;
+    font-weight: 800;
+   
+}
+section ul {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px; 
+    padding: 0;
+}
+
+section ul li {
+    padding-left: 0; 
+    font-weight: 800;
+    color:black;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    
+   
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+section {
+    padding: 50px;
+    
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    max-height: 50%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    /* Gallery Images */
+.gallery img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 50%; 
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+/* Hover Effect */
+.gallery img:hover {
+    transform: scale(1.1); 
+}
+
+
+h1, h2, h3, p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 6px 8px 4px rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+h2:hover {
+    color: #0026ff; 
+    cursor: pointer;
+    text-decoration: underline; 
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(227, 22, 118);
+    font-weight: 800;
+}
+
+.content-box {
+    background-color: rgba(157, 236, 74, 0.8); 
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    margin: 0 auto; 
+    max-width: 600px; /* Adjust the maximum width */
+    border-style:ridge;
+}
+
+
+.sweet{
+    background-color: rgba(157, 236, 74, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto; 
+    max-width: 600px; 
+    border-style:ridge;
+}
+
+
+
+/* Color */
+a {
+    color: #ff6600; 
+}
+
+a:hover {
+    color: #ff8533; 
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    footer {
+        padding: 30px 0;
+    }
+}
+
+
+footer {
+    background-color: rgba(229, 31, 104, 0.8); 
+    color: rgb(28, 22, 22);
+    padding: 20px 0; 
+    text-align: center;
+    width: 100%;
+}
+
+
+footer p {
+    font-size: 14px; 
+    color: rgb(0, 0, 0);
+}
+
+.footer-logo img {
+    width: 80px; 
+    border-radius: 50%;
+}
+
+
+
+footer .footer-form form button {
+    transition: background-color 0.3s ease;
+}
+
+footer .footer-form form button:hover {
+    background-color: #ff8533; 
+}
+
+
+footer .footer-form form input,
+footer .footer-form form textarea,
+footer .footer-form form button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    /* Adjustments for smaller mobile screens */
+    .gallery img {
+        width: 100%;
+    }
+}
